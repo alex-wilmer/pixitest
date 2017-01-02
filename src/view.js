@@ -2,8 +2,8 @@ import { autoDetectRenderer } from 'pixi.js'
 
 export default ({
   element,
-  width = element.clientWidth,
-  height = element.clientHeight,
+  width,
+  height,
 }) => {
 
   let renderer = autoDetectRenderer(
